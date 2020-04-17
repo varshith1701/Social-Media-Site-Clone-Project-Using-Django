@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{% block content %}
+{% if user.is_authenticated %}
+    <h1>Welcome to the world of Fun!!!</h1>
+
+    {% else %}
+    <h1>Welcome to the world of Fun!!!</h1>
+
+    <div class="container">
+      <h4>Sign up and Login to have more fun</h4>
+    </div>
+    {% endif %}
+{% endblock %}
